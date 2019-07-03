@@ -1,4 +1,5 @@
 .git
 .gitignore.swp
 .global_node_modules
+_book
 node_modules
