@@ -45,7 +45,7 @@ after_script:
   - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
   - git checkout --orphan gh-pages
   - rm -rf .global_node_modules README.md SUMMARY.md book.json node_modules .travis.yml
-  - cp _book/* .
+  - cp -rf  _book/* .
   - rm -rf _book
   - git init
   - git add .
