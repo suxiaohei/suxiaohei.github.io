@@ -3,7 +3,7 @@
 1. 测试1：
 ```
 Class A {
-    private String a;
+    private String A;
 }
 ```
 
